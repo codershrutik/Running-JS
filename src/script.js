@@ -44,8 +44,36 @@ const password = prompt("Please enter a new password");
 //     console.log("PASSWORD TOO SHORT!");
 // }
 
-if(password.length >= 6 && password.indexOf(' ') === -1){
-    console.log("Valid password");
-} else{
-    console.log("Incorrecct format for password");
+// if(password.length >= 6 && password.indexOf(' ') === -1){
+//     console.log("Valid password");
+// } else{
+//     console.log("Incorrecct format for password");
+// }
+
+//Switch statement
+const day = 1;
+switch(day){
+    case 1: 
+        console.log("Monday");
+        break;
+    case 2:
+        console.log("Teusday");
+        break;
+    case 3:
+        console.log("Wednesday");
+        break;
+    case 4:
+        console.log("Thursday");
+        break;
+    case 5:
+        console.log("Friday");
+        break;
+    case 6:
+        console.log("Saturday");
+        break;
+    case 7:
+        console.log("Sunday");
+        break;
+    default:
+        console.log("Invalid input");
 }
