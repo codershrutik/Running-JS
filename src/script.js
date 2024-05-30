@@ -1,11 +1,11 @@
-console.log("Before conditionals");
-let random = Math.random();
+// console.log("Before conditionals");
+// let random = Math.random();
 
-if(random<0.5){
-    console.log("Your number is less than 0.5");
-} else{
-    console.log("Your number is less than or equal t0 0.5");
-}
+// if(random<0.5){
+//     console.log("Your number is less than 0.5");
+// } else{
+//     console.log("Your number is less than or equal t0 0.5");
+// }
 
 // const dayOfWeek = 'Monday';
 // if(dayOfWeek == 'Monday'){
@@ -30,3 +30,16 @@ if(random<0.5){
 // } else if(age>65){
 //     console.log(`Please pay $${seniorPrice}`);
 // }
+
+//Password
+const password = prompt("Please enter a new password");
+
+if(password.length >=6){
+    if(password.indexOf(' ') == -1){
+        console.log('Valid Password');
+    } else{
+        console.log("Password cannot contain spaces!";)
+    }
+} else{
+    console.log("PASSWORD TOO SHORT!");
+}
