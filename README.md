@@ -1,2 +1,2 @@
 # Running-JS
-Running JS repo contains some basic jAVAscript code for tutorial purposes.
+Running JS repo contains some basic JavaScript code for tutorial purposes.
